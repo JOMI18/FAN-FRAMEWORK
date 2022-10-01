@@ -1,13 +1,6 @@
-.fff{
-    height: 70vh;
-    border: 1px solid rgba(0, 0, 0, 0.397);
-    box-shadow: 2px 2px 2px rgb(15, 15, 15);
-}
-
-
 
 .circle1 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 300px;
     height: 300px;
     border: 3px solid black;
@@ -45,7 +38,7 @@
   }
   
   .FAN {
-    margin-left: 520px;
+    margin-left: 320px;
   }
   
   .firststem {
@@ -186,34 +179,122 @@
     margin-left: 142px;
   }
 
-  @media (max-width:882px) {
-    .circle1 {
-        position: absolute;
-        margin-top: 50px;
-        width: 300px;
-        height: 300px;
-        top: 110px;
-        left: 180px;
-        border: 3px solid black;
-        border-radius: 100%;
-        padding: 1px;
-        background-color: rgb(125, 125, 146);
-      }
-
-      .body{
-        /* position: absolute; */
-       margin-top: 380px;
-       margin-left: -350px;
-      }
-    
-      .foot{
-        margin-left: -330px;
-      }
-      .fb{
-        position: absolute;
-        margin-left: -10px;
-
-      }
-      
+  @media (max-width:740px) {
+    .FAN {
+      margin-left: 200px;
+    }
   }
-  
+  @media (max-width:552px) {
+    .FAN {
+      margin-left: 120px;
+    }
+    .circle1 {
+      /* margin-top: 50px; */
+      width: 240px;
+      height: 240px;
+    }
+    .circle2 {
+      width: 220px;
+      height:  220px;
+ 
+    }
+    .circle3 {
+      width: 140px;
+      height: 140px;
+     
+    }
+    
+    .circle4 {
+      width: 26px;
+      height: 26px;
+    }
+    .fanblade1 {
+      width: 100px;
+      height: 12px;
+      margin-top: -490px;
+      margin-left: 10px;
+    }
+    
+    .fanblade2 {
+      width: 12px;
+      height: 100px;
+      margin-top: -122px;
+      margin-left: 118px;
+    }
+    
+    .fanblade3 {
+      width: 100px;
+      height: 13px;
+      margin-top: 4px;
+      margin-left: 140px;
+    }
+    
+    .fanblade4 {
+      width: 12px;
+      height: 100px;
+      margin-top: 9px;
+      margin-left: 120px;
+    }
+    .firststem {
+      width: 15px;
+      margin-left: 112px;
+    }
+    
+    .buttonstem {
+      width: 70px;
+      height: 120px;
+
+      margin-left: 84px;
+
+    }
+    
+    .secondstem {
+      width: 15px;
+      height: 80px;
+
+      margin-left: 110px
+    }
+    
+    .stemcircle {
+      width: 20px;
+      height: 20px;
+
+      margin-left: 105px;
+      margin-bottom: 500px;
+
+      margin-top: -25px;
+    }
+    
+    .thirdstem {
+      width: 15px;
+      height: 50px;
+      margin-left: 110px;
+      margin-top: -510px;
+    }
+    
+    .foot {
+      width: 280px;
+      height: 30px;
+      border: 3px solid black;
+      border-radius: 100%;
+      background-color: black;
+      margin-left: -20px;
+    }
+
+    
+  }
+  @media (max-width:400px) {
+    .FAN {
+      margin-left: 40px;
+    }
+  }
+  @media (max-width:315px) {
+    .FAN {
+      margin-left: 20px;
+    }
+  }
+  @media (max-width:300px) {
+    .FAN {
+      margin-left: 8px;
+    }
+  }
